@@ -46,5 +46,12 @@ You can install these on Kaggle by using a cell with `!pip install ...`
 Place the following in your notebook's working directory:
 
 - audio/: Folder with .wav files (10+ recommended)
-
 - lyrics.txt: One line per audio, aligned with each audio file in order
+
+## 🚀 Training Pipeline (Simplified Overview)
+
+- Preprocessing
+-- Normalize audio (16kHz, mono)
+-- Trim silences
+- Training
+- Generation
