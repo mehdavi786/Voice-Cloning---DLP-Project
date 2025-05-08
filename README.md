@@ -51,7 +51,12 @@ Place the following in your notebook's working directory:
 ## 🚀 Training Pipeline (Simplified Overview)
 
 - Preprocessing
--- Normalize audio (16kHz, mono)
--- Trim silences
+  - Normalize audio (16kHz, mono)
+  - Trim silences
 - Training
+  - Use Coqui TTS for model training
+  - Recommended model: TTS_TRAINER or Tacotron2 + Vocoder (HiFi-GAN)
+  - Modify configs to allow custom languages / Roman script
 - Generation
+  - nput: New Roman Urdu lyrics
+  - Output: Synthesized .wav in trained voice
