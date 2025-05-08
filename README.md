@@ -45,7 +45,7 @@ You can install these on Kaggle by using a cell with `!pip install ...`
 
 Place the following in your notebook's working directory:
 
-- audio/: Folder with .wav files (10+ recommended)
+- audio/: Folder with `.wav` files (10+ recommended)
 - lyrics.txt: One line per audio, aligned with each audio file in order
 
 ## 🚀 Training Pipeline (Simplified Overview)
@@ -59,4 +59,4 @@ Place the following in your notebook's working directory:
   - Modify configs to allow custom languages / Roman script
 - Generation
   - Input: New Roman Urdu lyrics
-  - Output: Synthesized .wav in trained voice
+  - Output: Synthesized `.wav` in trained voice
