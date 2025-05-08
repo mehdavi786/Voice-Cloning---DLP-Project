@@ -58,5 +58,5 @@ Place the following in your notebook's working directory:
   - Recommended model: TTS_TRAINER or Tacotron2 + Vocoder (HiFi-GAN)
   - Modify configs to allow custom languages / Roman script
 - Generation
-  - nput: New Roman Urdu lyrics
+  - Input: New Roman Urdu lyrics
   - Output: Synthesized .wav in trained voice
