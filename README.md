@@ -71,3 +71,9 @@ Place the following in your notebook's working directory:
 - Train in 2 stages:
   1. Tacotron2 (text-to-mel)
   2. Vocoder (mel-to-wav, e.g., HiFi-GAN)
+
+--- 
+
+## 💡 Future Improvements
+- Add phoneme mapping for Roman Urdu → Urdu phonemes
+- Use forced-alignment for better training
