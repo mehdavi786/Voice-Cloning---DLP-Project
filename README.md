@@ -60,3 +60,14 @@ Place the following in your notebook's working directory:
 - Generation
   - Input: New Roman Urdu lyrics
   - Output: Synthesized `.wav` in trained voice
+
+---
+
+## 📈 Tips for Better Output
+- Use clean, high-quality `.wav` files
+- Keep lyrics properly aligned (time-wise) with audio
+- At least 10-20 minutes of data recommended
+- Uniform audio (same sampling rate, same mic) improves results
+- Train in 2 stages:
+  1. Tacotron2 (text-to-mel)
+  2. Vocoder (mel-to-wav, e.g., HiFi-GAN)
