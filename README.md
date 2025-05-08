@@ -2,6 +2,8 @@
 
 This project aims to **train a voice cloning model** that can generate singing-style audio from new lyrics in the **style of a specific artist**—for example, Atif Aslam. The system takes `.wav` audio files of songs (in Urdu) and corresponding **Roman Urdu** lyrics to train a custom TTS (Text-to-Speech) model. Once trained, it can synthesize new audio from any input lyrics in the artist's voice.
 
+---
+
 ## 📁 Project Structure
 
 - `voiceover-v1-selfmodeltraining.ipynb`  
