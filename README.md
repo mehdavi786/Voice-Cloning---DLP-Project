@@ -37,3 +37,14 @@ You can install these on Kaggle by using a cell with `!pip install ...`
 !pip install pydub
 !pip install torchaudio
 !pip install numba
+```
+
+---
+
+## 📂 Data Requirements
+
+Place the following in your notebook's working directory:
+
+- audio/: Folder with .wav files (10+ recommended)
+
+- lyrics.txt: One line per audio, aligned with each audio file in order
